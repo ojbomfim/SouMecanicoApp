@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "593840944136",
+    "firebase_url": "https://soumecanico-83fcd.firebaseio.com",
+    "project_id": "soumecanico-83fcd",
+    "storage_bucket": "soumecanico-83fcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593840944136:android:330707fd9df6d9e6c68dbd",
+        "android_client_info": {
+          "package_name": "br.com.soumecanico.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593840944136-a0n70muol7vcnqec0bh1poll4ev444gn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW_HKLp90mraO1EVEB6kGX8GUowUB_nkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593840944136-a0n70muol7vcnqec0bh1poll4ev444gn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

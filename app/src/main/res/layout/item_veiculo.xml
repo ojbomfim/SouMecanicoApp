@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xml:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#FAFAFA">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="?android:selectableItemBackground"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="99dp"
+                android:gravity="center"
+                android:text="Placa:"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="78dp"
+                android:gravity="center"
+                android:text="Marca:"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="102dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="center"
+                android:text="Serviço:"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="84dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="23dp"
+                android:gravity="center"
+                android:text="Ano:"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="67dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="41dp"
+                android:gravity="center"
+                android:text="Cor:"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="47dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="58dp"
+                android:gravity="center"
+                android:text="Modelo:"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textDt_cadastro"
+                android:layout_width="139dp"
+                android:layout_height="42dp"
+                android:layout_above="@+id/textDesc"
+                android:layout_gravity="start"
+                android:layout_marginEnd="11dp"
+                android:layout_marginBottom="28dp"
+                android:layout_toStartOf="@+id/imageView2"
+                android:text="DATA CADASTRO"
+                android:textColor="#444444"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textModelo"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textDesc"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="start"
+                android:layout_marginStart="55dp"
+                android:layout_marginEnd="161dp"
+                android:layout_marginBottom="36dp"
+                android:layout_toStartOf="@+id/imageView2"
+                android:text="MODELO"
+                android:textColor="#444444"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textAno"
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textDesc"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="158dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_toStartOf="@+id/imageView2"
+                android:layout_toEndOf="@+id/textView8"
+                android:text="ANO"
+                android:textColor="#444444"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textMarca"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textDesc"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginEnd="162dp"
+                android:layout_marginBottom="57dp"
+                android:layout_toStartOf="@+id/imageView2"
+                android:gravity="start"
+                android:text="MARCA"
+                android:textColor="#444444"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textPlaca"
+                android:layout_width="169dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textDesc"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="44dp"
+                android:layout_marginEnd="162dp"
+                android:layout_marginBottom="78dp"
+                android:layout_toStartOf="@+id/imageView2"
+                android:gravity="start"
+                android:text="PLACA"
+                android:textColor="#444444"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textCor"
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textDesc"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="161dp"
+                android:layout_marginBottom="17dp"
+                android:layout_toStartOf="@+id/imageView2"
+                android:layout_toEndOf="@+id/textView9"
+                android:text="COR"
+                android:textColor="#444444"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textDesc"
+                android:layout_width="308dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="2dp"
+                android:layout_toStartOf="@+id/imageView2"
+                android:text="SERVIÇO EXECUTADO"
+                android:textColor="#444444"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_keyboard_arrow_right_black_48px"
+                android:tint="#ACACAC" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="19dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="68dp"
+                android:layout_marginBottom="91dp"
+                android:text="Data/Hora Serviço:" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

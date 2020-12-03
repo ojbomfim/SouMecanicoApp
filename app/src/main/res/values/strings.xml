@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SouMecânico</string>
+    <string name="webservice">https://soumecanico.000webhostapp.com/WebServicePHP/</string>
+
+    <string name="hint_firstName_to_login">Nome</string>
+    <string name="hint_lastName_to_login">Sobrenome</string>
+    <string name="hint_email_to_login">E-mail (para login)</string>
+    <string name="do_login">Realizar login</string>
+    <string name="sign_up1">Cadastrar</string>
+    <string name="invalid_email">
+        Forneça um Usuário válido.
+    </string>
+    <string name="invalid_password">
+        Mínimo de 6 caracteres.
+    </string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Senha</string>
+    <string name="forgot_my_password">
+        Esqueci minha senha
+    </string>
+    <string name="sign_in">Entrar</string>
+    <string name="or">ou</string>
+    <string name="sign_up2">
+        Criar minha conta
+    </string>
+    <string name="privacy_policy">
+        Políticas de privacidade
+    </string>
+    <string name="invalid_login">
+        Dados de login inválidos.
+    </string>
+    <string name="lembrar_minha_senha">Lembrar minha senha</string>
+    <string name="versao">Versão 1.0</string>
+    <string name="placa">Placa:</string>
+</resources>
